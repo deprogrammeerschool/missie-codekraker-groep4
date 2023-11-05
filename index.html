@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Missie Codekraker</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="content header-content">
+        <img src="./images/blinky.jpg" width="80px">
+        <h1>Missie Codekraker</h1> 
+    </div>
+    </header>
+    <main>
+        <div class="content main-content">
+            <div class="intro">
+                <p>
+                    Dit is Blinkey de Robot. Vandaag gaat hij op missie: Missie Codekraker. Blinkey probeert alle
+                    opdrachten op te lossen. Maar hij kan dit niet alleen!
+                </p>
+                <p>
+                   Achter elk deurtje zit een opdracht. Door de goede oplossing in te vullen, gaat het volgende deurtje open.
+                   Los jij alle opdrachten op? 
+                </p>
+            </div>
+            <div class="challenges">
+                <div class="challenge">
+                    <div class="door can-open js-door-open" data-door="1">
+                        <div>
+                            <span class="number">1</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="1">Open</button>
+                    <dialog data-dialog="1">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="1"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 1</h1>
+
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="2">
+                        <div>
+                            <span class="number">2</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="2">Open</button>
+                    <dialog data-dialog="2">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="2"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 2</h1>
+
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="3">
+                        <div>
+                            <span class="number">3</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="3">Open</button>
+                    <dialog data-dialog="3">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="3"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 3</h1>
+
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="4">
+                        <div>
+                            <span class="number">4</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="4">Open</button>
+                    <dialog data-dialog="4">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="4"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 4</h1>
+
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="5">
+                        <div>
+                            <span class="number">5</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="5">Open</button>
+                    <dialog data-dialog="5">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="5"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 5</h1>
+
+                        </div>
+                    </dialog>
+                </div>
+
+                <div class="challenge">
+                    <div class="door js-door-open" data-door="10">
+                        <div>
+                            <span class="number">6</span>
+                        </div>
+                    </div>
+                    <button class="button open-challenge-button js-open-dialog-button" data-button="6">Open</button>
+                    <dialog data-dialog="6">
+                        <div class="dialog-content">
+                            <button class="close-button" data-close="6"><img src="./images/close.svg"></button>
+                            <h1>Codekraker 6</h1>
+                            <p>
+                                Wow! je bent er bijna, nog maar 1 klik en dan is de missie voltooid! Ga op zoek naar 
+                                waar je moet klikken, maar let op, er is nog maar weinig tijd..!
+                            </p>
+                            <p>
+                                Sluit met het kruisje eerst deze opdracht, voordat je begint te klikken!
+                            </p>
+                        </div>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+        <div class="easter-egg js-easter-egg"></div>
+        <canvas id="confetti" class="js-confetti"></canvas>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
